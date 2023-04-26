@@ -8,6 +8,19 @@ public class Main {
         //Si se dispara la excepción, mostraremos el mensaje "Esto no puede hacerse".
         //Finalmente, mostraremos en cualquier caso: "Demo de código".
 
-        
+        int num1 = 10, num2 = 0;
+
+        try {
+            double resultado = dividePorCero(num1,num2);
+        } catch (ArithmeticException a){
+            System.out.println("Esto no puede hacerse.");
+        } finally {
+            System.out.println("Demo de código.");
+        }
+    }
+
+    private static double dividePorCero(int num1, int num2) {
+        double resultado = 0;
+        return resultado = num1/num2;
     }
 }
