@@ -9,6 +9,10 @@ public class Main {
         int[] nuevosNumeros = eliminarPosiciones(numeros);
 
         print(nuevosNumeros);
+
+        //Punto 4
+        //El problema de usar vectores esta en que la capacidad de almacenamiento es finita,
+        //por ende cuando supere el limite asignado esto me va a dar un error.
     }
 
     private static int[] eliminarPosiciones(int[] numeros) {
