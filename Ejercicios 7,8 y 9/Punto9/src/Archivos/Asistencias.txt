@@ -1,0 +1,6 @@
+Nombre,Apellido,Asistencia,
+Juan,Perez,Presente,
+Carolina,Colorado,Ausente,
+Ramiro,Lavalle,Presente,
+Paulina,Montiel,Presente,
+Alfredo,Ramirez,Ausente,
